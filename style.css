@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background-color: rgb(80, 133, 177);
+    margin: 0;
+}
+
+header span {
+    color: white;
+
+}
+
+.katik {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.container {
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro button {
+    width: 100%;
+}
+
+.luas, .keliling {
+    border-color: rgb(80, 133, 177);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px;
+}
+
+.heading {
+    background-color: rgb(80, 133, 177);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
